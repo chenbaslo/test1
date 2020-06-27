@@ -7,7 +7,7 @@ pipeline {
             echo 'in the git'
             bat 'hostname'
             dir('app'){
-               bat 'python3 app3.py'
+               bat 'C:\Users\Chen\AppData\Local\Programs\Python\Python38\python.exe app3.py'
             }
             
          }
