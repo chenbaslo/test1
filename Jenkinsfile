@@ -6,7 +6,7 @@ pipeline {
          steps {
             echo 'in the git'
             bat 'hostname'
-            deleteDir()
+            bat 'dir'
          }
       }
    }
