@@ -6,7 +6,7 @@ pipeline {
          steps {
             echo 'in the git'
             bat 'hostname'
-            dir 'app' {
+            dir('app'){
                bat 'python3 app3.py'
             }
             
